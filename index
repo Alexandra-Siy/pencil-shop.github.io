@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+
+    body {
+      background-color: goldenrod;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+      header {
+        background-color: black;
+        padding: 20px;
+      }
+
+      .button {
+        color: lightseagreen;
+        text-decoration: none;
+        margin: 0 50px;
+        font-size: 20px;
+      }
+
+      .button:hover {
+        color: cyan;
+        background-color: sienna;
+      }
+    
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <a class = "button" href = "index.html"> <img src = "pencil.png" alt = "pencil" width = "50" height = "50"> </a>
+    <a class = "button" href = "gallery.html"> Gallery </a>
+    <a class = "button" href = "prices.html"> Prices </a>
+    <a class = "button" href = "instructions.html"> Instructions </a>
+    <a class = "button" href = "book.html"> Book </a>
+    
+  </header>
+  
+</body>
+
+</html>

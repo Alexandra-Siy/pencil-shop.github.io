@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+
+    body {
+      background-color: goldenrod;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+      header {
+        background-color: black;
+        padding: 20px;
+      }
+
+      .button {
+        color: lightseagreen;
+        text-decoration: none;
+        margin: 0 50px;
+        font-size: 20px;
+      }
+
+      .button:hover {
+        color: cyan;
+        background-color: sienna;
+      }
+    
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <a class = "button" href = "index.html"> <img src = "pencil.png" alt = "pencil" width = "50" height = "50"> </a>
+    <a class = "button" href = "gallery.html"> Gallery </a>
+    <a class = "button" href = "prices.html"> Prices </a>
+    <a class = "button" href = "instructions.html"> Instructions </a>
+    <a class = "button" href = "book.html"> Book </a>
+    
+  </header>
+
+  <h2> Order </h2>
+
+  <h4> What type of pencil would you like? </h4>
+  <select required>
+    <option> </option>
+    <option> Red </option>
+    <option> Blue </option>
+    <option> Yellow </option>
+  </select>
+
+  <h4> How will you be paying? </h4>
+  <input type = "radio" name = "Type"> Cash on Delivery <br>
+  <input type = "radio" name = "Type"> Card <br> 
+  <input type = "radio" name = "Type"> Alternative Online Payment
+
+  <h4> What is your address? </h4>
+  <textarea rows = "10" cols = "30"> Type here: </textarea> <br>
+
+  <h4> Any special requests? </h4>
+  <textarea rows = "10" cols = "30"> Type here: </textarea> <br>
+
+  <button type = "submit"> Submit </button>
+  
+</body>
+
+</html>

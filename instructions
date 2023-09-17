@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+
+    body {
+      background-color: goldenrod;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+      header {
+        background-color: black;
+        padding: 20px;
+      }
+
+      .button {
+        color: lightseagreen;
+        text-decoration: none;
+        margin: 0 50px;
+        font-size: 20px;
+      }
+
+      .button:hover {
+        color: cyan;
+        background-color: sienna;
+      }
+    
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <a class = "button" href = "index.html"> <img src = "pencil.png" alt = "pencil" width = "50" height = "50"> </a>
+    <a class = "button" href = "gallery.html"> Gallery </a>
+    <a class = "button" href = "prices.html"> Prices </a>
+    <a class = "button" href = "instructions.html"> Instructions </a>
+    <a class = "button" href = "book.html"> Book </a>
+  </header>
+
+  <ol> 
+    <li> Hold the pencil <a href = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fstock.adobe.com%2Fsearch%3Fk%3Dhand%2Bholding%2Bpencil&psig=AOvVaw2vV1mCGjXcQq4dim5-5Pyq&ust=1695000368377000&source=images&cd=vfe&ved=0CBEQjhxqFwoTCNj9urm-sIEDFQAAAAAdAAAAABAD"> like so. </a> </li>
+    <li> Make contact with the surface (with the pencil). </li>
+    <li> Move the pencil across the surface. </li>
+  </ol>
+
+  <h2> Tips </h2>
+  <ul> 
+    <li> Use our pencils (they're better than others) </li>
+    <li> Do not eat while writing </li>
+    <li> Do not get blood on your pencil </li>
+  </ul>
+  
+  
+</body>
+
+</html>
